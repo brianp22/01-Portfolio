@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    background: rgb(236, 236, 236);
 }
 
 header {
@@ -20,17 +21,28 @@ header::after {
 .name {
     float: left;
     background: teal;
-    margin-left: 350px;
+    margin-left: 250px;
     padding: .2rem;
     width: 10rem;
     text-align: center;
     color: white;
 }
 
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+}
+
+#topname {
+    color: white;
+    text-align: center;
+}
+
 ul {
     list-style: none;
     float: right;
-    margin-right: 350px;
+    margin-right: 250px;
 }
 
 ul > li {
@@ -42,6 +54,50 @@ ul > li {
     color: #777777;
     margin-top: 30px;
 }
+
+.container {
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 400px;
+    background: white;
+}
+
+#aboutme {
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2.2rem;
+    display: block;
+}
+
+#bio {
+    margin-left: 2.2rem;
+    display: inline-block;
+}
+
+#my-pic {
+    float: left;
+    padding-right: 2.2rem;
+}
+
+#biotext1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 34px;
+    padding-right: 2.2rem;
+    margin-top: -8px;
+
+    
+}
+
+#biotext2 { 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 30px;
+    padding-right: 2.2rem;
+    margin-top: 22px;
+}
+
+
 
 
 
