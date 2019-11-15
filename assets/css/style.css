@@ -69,6 +69,10 @@ ul > li {
     display: block;
 }
 
+hr {
+    margin: -2.2rem 2.2rem 2.2rem 2.2rem;
+}
+
 #bio {
     margin-left: 2.2rem;
     display: inline-block;
@@ -85,8 +89,6 @@ ul > li {
     line-height: 34px;
     padding-right: 2.2rem;
     margin-top: -8px;
-
-    
 }
 
 #biotext2 { 
@@ -97,6 +99,22 @@ ul > li {
     margin-top: 22px;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#666666;
+    border-top: 7px solid teal;
+    height: 40px;
+ }
+
+ #copyright {
+     color: white;
+     font-size: xx-small;
+     margin-top: 28px;
+     text-align: center;
+}
 
 
 
