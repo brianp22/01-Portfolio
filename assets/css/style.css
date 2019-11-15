@@ -60,6 +60,8 @@ ul > li {
     margin-right: 250px;
     height: 400px;
     background: white;
+    border: 1px solid #dddddd;
+    margin-top: 15px;
 }
 
 #aboutme {
@@ -67,6 +69,7 @@ ul > li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 2.2rem;
     display: block;
+    padding-top: 0px;
 }
 
 hr {

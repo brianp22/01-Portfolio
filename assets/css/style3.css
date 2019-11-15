@@ -77,7 +77,7 @@ hr {
      text-align: center;
 }
 
-#portfolio {
+#contact{
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 1.2rem;
@@ -86,33 +86,62 @@ hr {
     padding-top: 10px;
 }
 
-#portfolio-container {
+#contact-container {
     margin-left: 1.2rem;
     display: inline-block;
+    margin-top: -17px;
 }
 
-.container2 {
+.container3 {
     margin-left: 425px;
     margin-right: 425px;
-    margin-top: 15px;
-    height: 525px;
+    height: 370px;
     background: white;
     border: 1px solid #dddddd;
+    margin-top: 20px;
 }
 
-#port-pic2 {
-    padding-left: 1.2rem;
+p {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
-#port-pic3 {
-    padding-top: 1.2rem;   
+#name-box {
+    width: 545px;
+    margin-top: -10px;
 }
 
-#port-pic4 {
-    padding-left: 1.2rem;
-    padding-top: 1.2rem;
+#email-box {
+    width: 545px;
+    margin-top: -10px;
 }
 
-#port-pic5 {
-    padding-top: 1.2rem;   
+#message-box {
+    width: 545px;
+    height: 125px;   
+}
+
+#name-input {
+    margin-bottom: 3px;
+}
+
+#email-input {
+    margin-bottom: 3px;
+}
+
+#message-input {
+    margin-bottom: 3px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    width: 75px;
 }
