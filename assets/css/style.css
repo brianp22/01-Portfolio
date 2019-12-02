@@ -119,3 +119,20 @@ hr {
      text-align: center;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    border-top: solid 2px teal;
+    height: 50px;
+}
+
+ #copyright {
+     color: white;
+     font-size: xx-small;
+     margin-top: 28px;
+     text-align: center;
+}
+
